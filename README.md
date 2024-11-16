@@ -34,5 +34,11 @@ streamlit run app.y & npx localtunnel --port 8501
 ```
 This code runs the app.y in the secure tunnel and provides the link to acess it in your browser
 
-`Mathlearn model only runs on CUDA devices`
+```plaintext
+Mathlearn model only runs on CUDA devices
+```
+
+## Acknowledgements
+
+I would like to thank my mentor Engineer Uzordinma Nwokeaka for the continous guidance throughout this project and the KaggleX community for an opportunity of self and career development. Special thanks to the organizers of the fellowship program for the exposure in generative AI  
 
