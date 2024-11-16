@@ -6,7 +6,7 @@ Finetuned Gemma model with a custom chain of thought data to solve mathematics p
 ![Mathlearn Project drawio](https://github.com/user-attachments/assets/745926e0-56c5-4403-a0d0-8d8cc37cd088)
 
 ### Project Outline
-<p>This project details how I finetuned a `quantized gemma2-9b-instruct model` to a finetuned custom mathlearn model for solving mathematical problems in more structured step by step procedure. I first came up with a visual of the model pipeline to get a clear view of what to expect and to plan on methods of execution. I fine tuned the quantized model using `QLoRa` approach which cost and time effective. This finetuning technique freezes most of the layers in the model making only a small section of the selcted weights are updates during finetuning. Numina provided me with finetuning data where I leveraged their <a href='https://huggingface.co/datasets/AI-MO/NuminaMath-CoT'>NuminaMath- CoT<a/> data which is a custom data used in previous AIMO competiton where each sample is formated in chain of thought manner. Using a subset of 100k sample from the CoT data, I was able to reach a loss of 0.96 which clearly indicated that the model was learning from the data.</p>
+<p>This project details how I finetuned a quantized gemma2-9b-instruct model to a finetuned custom mathlearn model for solving mathematical problems in more structured step by step procedure. I first came up with a visual of the model pipeline to get a clear view of what to expect and to plan on methods of execution. I fine tuned the quantized model using QLoRa approach which cost and time effective. This finetuning technique freezes most of the layers in the model making only a small section of the selcted weights are updates during finetuning. Numina provided me with finetuning data where I leveraged their <a href='https://huggingface.co/datasets/AI-MO/NuminaMath-CoT'>NuminaMath- CoT<a/> data which is a custom data used in previous AIMO competiton where each sample is formated in chain of thought manner. Using a subset of 100k sample from the CoT data, I was able to reach a loss of 0.96 which clearly indicated that the model was learning from the data.</p>
 
 <b> RAG System </b>
 <p>
@@ -16,5 +16,8 @@ I used Microsofts's <a href='https://huggingface.co/datasets/microsoft/orca-math
 
 <b> Streamlit App</b>
 <p>
-I was able to create a user interface to interat with the model using streamlit which abstracts the inner components of the model and allows users to easy use the model. Though not efficient interms of the time it takes to respond to user queries, It clearly provide key steps it uses to a reach at the final solution and the formulas used.
+I was able to create a user interface to interat with the model using streamlit which abstracts the inner components of the model and allows users to easy use the model. Though not efficient interms of the time it takes to respond to user queries, It clearly provide key steps it uses to a reach at the final solution and the formulas used. 
 </p>
+
+![Chatbot Demo](https://github.com/user-attachments/assets/3355d098-0cc9-4617-b858-81c3e9ffc7b0)
+
