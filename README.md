@@ -40,5 +40,5 @@ Mathlearn model only runs on CUDA devices
 
 ## Acknowledgements
 
-I would like to thank my mentor Engineer Uzordinma Nwokeaka for the continous guidance throughout this project and the KaggleX community for an opportunity of self and career development. Special thanks to the organizers of the fellowship program for the exposure in generative AI  
+I would like to thank my mentor Engineer Uzordinma Nwokeaka for the continous guidance throughout this project and the KaggleX community for an opportunity of self and career development. Special thanks to the organizers of the fellowship program for such an exposure in generative AI  
 
