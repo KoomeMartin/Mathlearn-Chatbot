@@ -11,7 +11,7 @@ This project details how I finetuned a `quantized gemma2-9b-instruct model` to a
 <b> RAG System </b>
 
 I also added contextual data in a retrieval system to provide more context to the model when prompted with a problem. The most challenging part of implementing the RAG was getting the retiever to extract relevant data related to the query especially in math domain where main concepts interrelated. 
-I used Microsofts's <a href='https://huggingface.co/datasets/microsoft/orca-math-word-problems-200k'>`Orca-math-word-problems`<a/> to provide contexr to the user prompts where I used a `recursive text character splitter` to split the data into smaller chunks then passed the chunked data in an index for semantic retrieval. This is among the existing research am working on to find better ways to improve retrieval system in mathematics domain.
+I used Microsofts's <a href='https://huggingface.co/datasets/microsoft/orca-math-word-problems-200k'>`Orca-math-word-problems`<a/> to provide contexr to the user prompts where I used a `recursive character text splitter` to split the data into smaller chunks then passed the chunked data in an index for semantic retrieval. This is among the existing research am working on to find better ways to improve retrieval system in mathematics domain.
 
 <b> Streamlit App</b>
 
