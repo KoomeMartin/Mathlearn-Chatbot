@@ -19,7 +19,8 @@ I was able to create a user interface to interat with the model using streamlit 
 
 
 
-https://github.com/user-attachments/assets/dd8ffc19-1237-4b94-9548-51abbef38e27
+
+https://github.com/user-attachments/assets/efb26be3-5be5-4716-8f0c-f5cc8452f322
 
 
 
