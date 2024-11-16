@@ -17,7 +17,11 @@ I used Microsofts's <a href='https://huggingface.co/datasets/microsoft/orca-math
 
 I was able to create a user interface to interat with the model using streamlit which `abstracts` the inner components of the model and allows users to easy use the model. Though not efficient interms of the time it takes to respond to user queries, It clearly provide key steps it uses to a reach at the final solution and the formulas used. 
 
-![Chatbot Demo](https://github.com/user-attachments/assets/3355d098-0cc9-4617-b858-81c3e9ffc7b0)
+
+
+https://github.com/user-attachments/assets/dd8ffc19-1237-4b94-9548-51abbef38e27
+
+
 
 ### Usage
 To use the chatbot, fork this repoistory and run the app.py script using the following code
