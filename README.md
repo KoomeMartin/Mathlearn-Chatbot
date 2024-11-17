@@ -5,6 +5,8 @@ Finetuned Gemma model with a custom chain of thought data to solve mathematics p
 
 ![Mathlearn Project drawio](https://github.com/user-attachments/assets/745926e0-56c5-4403-a0d0-8d8cc37cd088)
 
+
+
 ### Project Outline
 This project details how I finetuned a `quantized gemma2-9b-instruct model` to a finetuned custom mathlearn model for solving mathematical problems in more structured step by step procedure. I first came up with a visual of the model pipeline to get a clear view of what to expect and to plan on methods of execution. I fine tuned the quantized model using `QLoRa `approach which cost and time effective. This finetuning technique freezes most of the layers in the model making only a small section of the selcted weights are updates during finetuning. Numina provided me with finetuning data where I leveraged their <a href='https://huggingface.co/datasets/AI-MO/NuminaMath-CoT'>`NuminaMath- CoT`<a/> data which is a custom data used in previous `AIMO` competiton where each sample is formated in chain of thought manner. Using a subset of 100k sample from the CoT data, I was able to reach a loss of 0.96 which clearly indicated that the model was learning from the data.
 
@@ -21,6 +23,8 @@ I was able to create a user interface to interat with the model using streamlit 
 
 
 https://github.com/user-attachments/assets/efb26be3-5be5-4716-8f0c-f5cc8452f322
+
+https://github.com/user-attachments/assets/fae6484a-a914-449d-88b7-fb329cec1b80
 
 
 
