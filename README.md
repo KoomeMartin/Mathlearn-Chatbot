@@ -29,7 +29,7 @@ https://github.com/user-attachments/assets/fae6484a-a914-449d-88b7-fb329cec1b80
 
 
 ### Usage
-To use the chatbot, fork this repoistory and run the app.py script using the following code
+To use the chatbot, fork this repository and run the app.py script using the following code
 
 First create a secure tunnel to run the streamlit app
 
